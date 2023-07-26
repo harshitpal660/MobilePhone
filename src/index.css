@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mobile {
+  height: 550px;
+  width: 350px;
+  background-color: rgb(241, 49, 97);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 40px;
+}
+
+/* Styles for screen */
+.screen {
+  height: 70%;
+  width: 95%;
+  background-color: rgb(26, 26, 26);
+  margin: auto;
+  position: relative;
+  top: 30px;
+  border-radius: 10px;
+}
+
+.info {
+  height: 25px;
+  width: 98%;
+  background-color: rgb(155, 152, 143);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(28, 29, 30);
+  margin: auto;
+  position: relative;
+  top: 2px;
+  border-radius: 2px;
+}
+
+#extra {
+  width: 90px;
+}
+
+.extrainfo {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  display: inline-block;
+  margin: 3px;
+}
+
+.extrainfo img {
+  height: 100%;
+  width: 100%;
+
+}
+
+/* wallpaper */
+#wallpaper {
+  height: 92%;
+  width: 98%;
+  overflow: hidden;
+  margin: auto;
+}
+
+#wallpaper img {
+  height: 100%;
+  width: 100%;
+}
+
+/* Styles for buttons */
+.buttons {
+  height: 24.5%;
+  position: relative;
+  top: 34px;
+  left: 50%;
+  cursor: pointer;
+  transform: translate(-15%);
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+#outer {
+  height: 120px;
+  width: 120px;
+  background-color: blueviolet;
+}
+
+#inner {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(115, 127, 135);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+#menu {
+  left: 45px;
+  top: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+#play_pause {
+  top: 65px;
+  left: 40px;
+  height: 40px;
+  width: 40px;
+}
+
+#next {
+  top: 26px;
+  left: 80px;
+  height: 40px;
+  width: 40px;
+
+}
+
+#prev {
+  top: 26px;
+  height: 40px;
+  width: 40px;
+}
+
+.control {
+  position: absolute;
+  overflow: hidden;
+}
+
+.control img {
+  height: 100%;
+  width: 100%;
+}
+
+#menuScreen {
+  display: flex;
+  height: fit-content;
+  width: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.icons {
+  height: 50px;
+  width: 50px;
+  /* background-color: bisque; */
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* style for app screen */
+.appScreen {
+  height: 100%;
+  /* width: fit-content; */
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  
+}
+.appScreen::-webkit-scrollbar {
+  display: none;
+}
+.AppItem {
+  margin-top: 5px;
+  height: 98%;
+  width: 324px;
+  margin-left: 3px;
+  margin-right: 5px;
+  display: inline-block;
+  border-radius: 3px;
+  background-color: antiquewhite;
+}
+.AppItem .appiteminner,.appiteminner iframe{
+  height: 100%;
+  width: 324px;
+}
